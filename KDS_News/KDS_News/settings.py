@@ -145,8 +145,8 @@ LOGIN_URL = '/login/'
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 
 #email host
-EMAIL_HOST_USER = "kds.news3@gmail.com"
-EMAIL_HOST_PASSWORD = "Khan1998@"
+EMAIL_HOST_USER = "add host email address"
+EMAIL_HOST_PASSWORD = "add email password"
 
 #gmail smtp
 EMAIL_HOST = "smtp.gmail.com"

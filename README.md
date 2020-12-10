@@ -1,5 +1,5 @@
 # KDS_News
-News website built using django
+News website built using django,jquery and ajax
 
 Website is currently hosted on http://group33-group33.apps.okd.eecs.qmul.ac.uk/
 

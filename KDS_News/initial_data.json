@@ -1,0 +1,611 @@
+[
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$3YHFmmjEzK1D$9vBC0za9+lRm2SeOA7vQJjzf3uPDCr+QgDWqdYuu8TI=",
+    "last_login": "2020-11-17T15:46:26.528Z",
+    "is_superuser": true,
+    "username": "Dihyat",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-11-17T15:46:02.631Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$pp9PBSLURWZh$DMEKTWfv5CPrttovjAevBuZQf785YWAM/SnDAIOhVN0=",
+    "last_login": "2020-12-01T17:36:51.168Z",
+    "is_superuser": true,
+    "username": "Admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-11-17T17:58:02.144Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 18,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$c2lTYawMqZY1$81DFnWjUD3T+1db/fl7ShgsPN6XWM6cGIJouTRgkL2s=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Test",
+    "first_name": "Test",
+    "last_name": "user",
+    "email": "test@test.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-11-21T14:22:25.714Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 19,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$T4i9AC9In8fD$mu5ZelmeR48vhy8yh44d+nCIveGAkSZ6q1ct0AQsBFY=",
+    "last_login": "2020-11-21T18:59:11.368Z",
+    "is_superuser": false,
+    "username": "Khizar",
+    "first_name": "khizar",
+    "last_name": "malik",
+    "email": "khza@ar.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-11-21T16:10:39.844Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 20,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$whOIb4f2L3q8$VvcwcCW9OrSTsK6wnf1Dnx+cCAMGCQBmYreK0dHVK/A=",
+    "last_login": "2020-12-01T17:30:58.772Z",
+    "is_superuser": false,
+    "username": "Nicole",
+    "first_name": "nicolette",
+    "last_name": "khan",
+    "email": "nic@khan.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-11-21T17:37:23.918Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 21,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$htJ0Q6DzzgBx$NyBNMYKgHvwyEGzlX7euEZEZ/8/MvQCiwP/Huvn3u50=",
+    "last_login": "2020-11-24T13:39:15.037Z",
+    "is_superuser": false,
+    "username": "Mehmood",
+    "first_name": "Mehmood",
+    "last_name": "Khan",
+    "email": "mk@k.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-11-24T13:39:03.452Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 29,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$R30NN1oAkbKt$LBMif+RrjVsU/F8uRnUtqLucwv73G1A1hnvujDeSxVM=",
+    "last_login": "2020-11-28T15:59:15.548Z",
+    "is_superuser": false,
+    "username": "md",
+    "first_name": "",
+    "last_name": "",
+    "email": "fraternitas07@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-11-28T10:24:11.018Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 30,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$ttSYW6YQfmJC$yC6wO1ENK2kAxL77mNW9mlyHMsJsyKUxFAbrTvpYCQM=",
+    "last_login": "2020-11-28T16:55:32.349Z",
+    "is_superuser": false,
+    "username": "Paulo",
+    "first_name": "",
+    "last_name": "",
+    "email": "fraternitas07@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-11-28T10:27:58.809Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 31,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$DRe41AUGI6zK$HGEZERVgrNUy06pDX3C4hGG8Ujj/fgb3D3fNAIBTBCw=",
+    "last_login": "2020-11-28T16:02:13.469Z",
+    "is_superuser": false,
+    "username": "Milarsenal",
+    "first_name": "milan",
+    "last_name": "arsenal",
+    "email": "fraternitas07@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-11-28T16:02:13.117Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 32,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$8dLrUQI8jtBl$bTPXl0/rhaHoYUOncTc/qdQuoanFbsUVuXpAni3+6P4=",
+    "last_login": "2020-12-02T18:52:44.729Z",
+    "is_superuser": false,
+    "username": "Wise124",
+    "first_name": "Muhammad",
+    "last_name": "Sumeer",
+    "email": "amir00505@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-11-28T20:19:02.389Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1beszmcefy6jxdxt4mcb9lpbwys4di8d",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-rZdQ0ucM0dq7wgFkS3FSIe4OkVJA-2bmvdRE21qmrcsyzawuyhl1-h0T5YfUnfCd6q3p3Oq6zEnvij5o12NjeV4P9--gUC_fOnqwFExkgwaztWBTQpPYo5AX8V5IXGSHwWHEjHEIMKDzZwCLDKzeH-GSNuE:1ki0wu:HCC_RY6va4ATCLIvR-dE8cFI9jSENDLKKmLs7q1icvU",
+    "expire_date": "2020-12-09T19:59:32.122Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1l909169bz8599oxsbq7nkakjzb7ze5p",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-rZdQ0ucM0dq7wgFkS3FSIe4OkVJA-2bmvdRE21qmrcsyzawuyhl1-h0T5YfUnfCd6q3p3Oq6zEnvij5o12NjeV4P9--gUC_fOnqwFExkgwaztWBTQpPYo5AX8V5IXGSHwWHEjHEIMKDzZwCLDKzeH-GSNuE:1kj3M3:kkE_hpe_HEkOz-xgilx1c-cXHe3Ae7mxXT8C-0oDNTo",
+    "expire_date": "2020-12-12T16:45:47.267Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1xpgxknwve9s7ihujrvejutp8np2h72p",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-rZdQ0ucM0dq7wgFkS3FSIe4OkVJA-2bmvdRE21qmrcsyzawuyhl1-h0T5YfUnfCd6q3p3Oq6zEnvij5o12NjeV4P9--gUC_fOnqwFExkgwaztWBTQpPYo5AX8V5IXGSHwWHEjHEIMKDzZwCLDKzeH-GSNuE:1khzZ9:5VuBXxYHwNDXSk5ZO_PzBG_i8HmLsghe1IWzziHqO5Y",
+    "expire_date": "2020-12-09T18:30:55.443Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2113t5ios86l6xxmuzkal5c259b2dh10",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSFQysule7-B3AeVqoGktCvjv2uTLnR7Zua8RIJtLWnreUkzi7PQTpx-RwR65LoTvkO9NUmtrsuMclfkQbu8Ns7Py-H-HRTo5VujHUAbQ4jakw1TZHKZrMLIkcbICNNISjP5GNlDdgaDg6ysD8EpO4j3By6UOKI:1kiQpm:5EJSXLTRE494ZUPQg9LsIaoxO18rnCIoBkcGPTleeV4",
+    "expire_date": "2020-12-10T23:37:54.955Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2bapo5zo06z04qgay7dozknvf6h15xgl",
+  "fields": {
+    "session_data": ".eJxVjEsOwjAMBe-SNYriuLgpS_Y9Q5XYDi2gROpnhbg7VOoCtm9m3ssMcVvHYVt0HiYxFwPOnH7HFPmhZSdyj-VWLdeyzlOyu2IPuti-ij6vh_t3MMZl_NYBxQsi5RSIyEGH4BiaBhQl8BlzSxklascuJyWS4H2niZi9gxbFvD_uzTfS:1kk9a7:62F6CrFzqVE1ltrbatExb63HIZsFOqY0v4jj_-UpJ34",
+    "expire_date": "2020-12-15T17:36:51.182Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4wcin88e2tda573b3r6ulwvpg844kiho",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgOAMu3fcMZICpVA0kpV0Z765NutDtf-_9lwi0rSVsnZcwZ3ERgxKn3zFSenDdSb5TvTWZWl2XOcpdkQftcmyZn9fD_Tso1Mu3tqgIYEJkbSygR1A2Ke0Naev0YFw-ex-BfWQk4IjGO3DGJjtp7TiJ9wfKbzbT:1kj3VU:Xolafz3x2sW46V_s3CNiJfETxhnp4JSLVd7FJeUxZwk",
+    "expire_date": "2020-12-12T16:55:32.360Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6bsnd4v3r977e771jrxz8i8h02nakpvy",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSFQysule7-B3AeVqoGktCvjv2uTLnR7Zua8RIJtLWnreUkzi7PQTpx-RwR65LoTvkO9NUmtrsuMclfkQbu8Ns7Py-H-HRTo5VujHUAbQ4jakw1TZHKZrMLIkcbICNNISjP5GNlDdgaDg6ysD8EpO4j3By6UOKI:1khhkK:32J6Oe70hcI0iF-AaKFinIKYK9DlqUxc1xOHNhO4D7A",
+    "expire_date": "2020-12-08T23:29:16.609Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "93qeul7wb1qeyh352uai741sglpks4uv",
+  "fields": {
+    "session_data": ".eJxVjEsOwjAMBe-SNYriuLgpS_Y9Q5XYDi2gROpnhbg7VOoCtm9m3ssMcVvHYVt0HiYxFwPOnH7HFPmhZSdyj-VWLdeyzlOyu2IPuti-ij6vh_t3MMZl_NYBxQsi5RSIyEGH4BiaBhQl8BlzSxklascuJyWS4H2niZi9gxbFvD_uzTfS:1ki0nd:-OmczGUMhisb-noLNSO9UuCKrXaeGnvH0TCOta_tJgs",
+    "expire_date": "2020-12-09T19:49:57.353Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "as5xgwy5appahf9h0i4b3u9nfaxq2xmp",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-rZdQ0ucM0dq7wgFkS3FSIe4OkVJA-2bmvdRE21qmrcsyzawuyhl1-h0T5YfUnfCd6q3p3Oq6zEnvij5o12NjeV4P9--gUC_fOnqwFExkgwaztWBTQpPYo5AX8V5IXGSHwWHEjHEIMKDzZwCLDKzeH-GSNuE:1khbDe:z5ypVsXJ1ddMxn9BoQWaXsgDs1yaBLPiJtlSO0quoHs",
+    "expire_date": "2020-12-08T16:31:06.098Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "c2wym7bekbc4ovmyrwkmjtpj9cy8xrtx",
+  "fields": {
+    "session_data": "e30:1kf5ep:1hZSMw5W0D7v82F8udCBoQqLOioYLtCCl3CcCL_qIhg",
+    "expire_date": "2020-12-01T18:24:47.950Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "efoviqkvbtvp7mvvunum2pkj1qidez7w",
+  "fields": {
+    "session_data": ".eJxVjEsOwjAMBe-SNYriuLgpS_Y9Q5XYDi2gROpnhbg7VOoCtm9m3ssMcVvHYVt0HiYxFwPOnH7HFPmhZSdyj-VWLdeyzlOyu2IPuti-ij6vh_t3MMZl_NYBxQsi5RSIyEGH4BiaBhQl8BlzSxklascuJyWS4H2niZi9gxbFvD_uzTfS:1kj2nj:zKqncG66w2C9-Cpf4A5sO1ME864y9wt8XzCdc_ACkUo",
+    "expire_date": "2020-12-12T16:10:19.599Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "erlglrm4u2qun4buu1ptofcl0et6mlhz",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSFQysule7-B3AeVqoGktCvjv2uTLnR7Zua8RIJtLWnreUkzi7PQTpx-RwR65LoTvkO9NUmtrsuMclfkQbu8Ns7Py-H-HRTo5VujHUAbQ4jakw1TZHKZrMLIkcbICNNISjP5GNlDdgaDg6ysD8EpO4j3By6UOKI:1kfAcc:QYzYXcBBAxzikx5LiFXUa8RKcpb3CI1uwrhTkxPItn8",
+    "expire_date": "2020-12-01T23:42:50.557Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ez1a8zh6lgvvekafjwfqcjqc9w6kj9u9",
+  "fields": {
+    "session_data": ".eJxVjEsOwjAMBe-SNYriuLgpS_Y9Q5XYDi2gROpnhbg7VOoCtm9m3ssMcVvHYVt0HiYxFwPOnH7HFPmhZSdyj-VWLdeyzlOyu2IPuti-ij6vh_t3MMZl_NYBxQsi5RSIyEGH4BiaBhQl8BlzSxklascuJyWS4H2niZi9gxbFvD_uzTfS:1kj706:ilbKmcuVGKYRWEjl1tsfABzL21s1UsnqoosA33ZNIo8",
+    "expire_date": "2020-12-12T20:39:22.550Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gb81s1zm9lmdnzsokg8oa476ts673f2m",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-rZdQ0ucM0dq7wgFkS3FSIe4OkVJA-2bmvdRE21qmrcsyzawuyhl1-h0T5YfUnfCd6q3p3Oq6zEnvij5o12NjeV4P9--gUC_fOnqwFExkgwaztWBTQpPYo5AX8V5IXGSHwWHEjHEIMKDzZwCLDKzeH-GSNuE:1kk9UQ:Mzu8APGo9wft3Zedz-DpK16SrGC4jJ0wm0SfrGGfPLI",
+    "expire_date": "2020-12-15T17:30:58.803Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gvmqhn35h4co91zeps3tp5elysssitwh",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSFQysule7-B3AeVqoGktCvjv2uTLnR7Zua8RIJtLWnreUkzi7PQTpx-RwR65LoTvkO9NUmtrsuMclfkQbu8Ns7Py-H-HRTo5VujHUAbQ4jakw1TZHKZrMLIkcbICNNISjP5GNlDdgaDg6ysD8EpO4j3By6UOKI:1kgXEd:4A-Evk3EVabQzn1y4xwJycwkbMd075sG1f4NZu1EjTc",
+    "expire_date": "2020-12-05T18:03:43.378Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "httyo9l3nfgbjq31y45vbbmnddtjefcw",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-rZdQ0ucM0dq7wgFkS3FSIe4OkVJA-2bmvdRE21qmrcsyzawuyhl1-h0T5YfUnfCd6q3p3Oq6zEnvij5o12NjeV4P9--gUC_fOnqwFExkgwaztWBTQpPYo5AX8V5IXGSHwWHEjHEIMKDzZwCLDKzeH-GSNuE:1kj3rC:FiYUl09a5Nm1O9oqIAQbpisJcsT_pDmSuC7WIiUBsNY",
+    "expire_date": "2020-12-12T17:17:58.722Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jrwjzwnp7bxppyykoei1zacgunykjudl",
+  "fields": {
+    "session_data": ".eJxVjEsOwjAMBe-SNYriuLgpS_Y9Q5XYDi2gROpnhbg7VOoCtm9m3ssMcVvHYVt0HiYxFwPOnH7HFPmhZSdyj-VWLdeyzlOyu2IPuti-ij6vh_t3MMZl_NYBxQsi5RSIyEGH4BiaBhQl8BlzSxklascuJyWS4H2niZi9gxbFvD_uzTfS:1kiKDd:vCLEOof18NkYydrtXULZcr3OrGqgpLeyTpKQM-rJx8w",
+    "expire_date": "2020-12-10T16:34:05.927Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "krs43kvzodenfa8olbao7ou8a3haxg8g",
+  "fields": {
+    "session_data": "e30:1kf5dg:4ZHsrxZ6snHDMXdG13_mPTGvL5GHGIWgeQPngoOA4HY",
+    "expire_date": "2020-12-01T18:23:36.526Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mh9y52lwosdo01b6nk6gdf6y6dehsbsz",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSE8hGFcuvcbCI9BqgaS0q6M_26bdKHbe865b-bDulS_Dpr9lNmFATv9bjGkJ7Ud5Edo985Tb8s8Rb4r_KCD33qm1_Vw_w5qGHWrCZRK0jlCI3VBm7KQ2gpZhIAMSJGidRG0CVYotOeEWIxwYQMOLBD7fAHLhDdl:1kf3Ba:nQoC5Mtky5YmJT1vUCFlVSjUrLgM6AszeQZBgiIbknU",
+    "expire_date": "2020-12-01T15:46:26.540Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "o5xlmv1qxxzvp0nr2h43vymelqc47ey4",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSHA8HTpvt9AhgGlaiAp7cr479qkC93ec859sYjbWuM2yhLnzM5MBnb6HRPSo7Sd5Du2W-fU27rMie8KP-jgU8_leTncv4OKo35rRQUQjJA2eSNsKNpdtREBsi3KKsQUSIL0DgCD8M6QCtolQnAgkszs_QHlTDcQ:1kgY6J:PSDBEyyUMRbAzHqIpO86wTHmshJuVzmEH2XwdN0p7Jg",
+    "expire_date": "2020-12-05T18:59:11.384Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "se07m7lyayq408o2bz8dklacnj4gx58c",
+  "fields": {
+    "session_data": ".eJxVjEsOwjAMBe-SNYriuLgpS_Y9Q5XYDi2gROpnhbg7VOoCtm9m3ssMcVvHYVt0HiYxFwPOnH7HFPmhZSdyj-VWLdeyzlOyu2IPuti-ij6vh_t3MMZl_NYBxQsi5RSIyEGH4BiaBhQl8BlzSxklascuJyWS4H2niZi9gxbFvD_uzTfS:1kk8F0:0Npd5rdccbzn2hhVBlwlwi7r3ebazD7Hn0vNY0TH_z4",
+    "expire_date": "2020-12-15T16:10:58.262Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "t6nizudmm15t9np4nk50lspdt2bw1veh",
+  "fields": {
+    "session_data": "e30:1kf5bH:CMOz_4kFApobdfITW2aXnKQqtq9L0ofBqiUJChe_IXE",
+    "expire_date": "2020-12-01T18:21:07.577Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "t9qj6ikhfp5vjss17m0lmf22sy8jttfl",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-rZdQ0ucM0dq7wgFkS3FSIe4OkVJA-2bmvdRE21qmrcsyzawuyhl1-h0T5YfUnfCd6q3p3Oq6zEnvij5o12NjeV4P9--gUC_fOnqwFExkgwaztWBTQpPYo5AX8V5IXGSHwWHEjHEIMKDzZwCLDKzeH-GSNuE:1ki0KQ:t323-1BXKEMuhapwDExPMHauYiF67UoHpwbdfDL8wMw",
+    "expire_date": "2020-12-09T19:19:46.260Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "utb86a0ka0rqrk96y0mbe5pkwszykmlh",
+  "fields": {
+    "session_data": ".eJxVjEsOwjAMBe-SNYriuLgpS_Y9Q5XYDi2gROpnhbg7VOoCtm9m3ssMcVvHYVt0HiYxFwPOnH7HFPmhZSdyj-VWLdeyzlOyu2IPuti-ij6vh_t3MMZl_NYBxQsi5RSIyEGH4BiaBhQl8BlzSxklascuJyWS4H2niZi9gxbFvD_uzTfS:1kk9YV:bPk8QDMRp9QCOSnvgpmaUNkMBse3PE30rCHWkdpsbuw",
+    "expire_date": "2020-12-15T17:35:11.552Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wtyw13ki3dcpvydvbgyumj63acvwzzl5",
+  "fields": {
+    "session_data": ".eJxVjEsOwjAMBe-SNYriuLgpS_Y9Q5XYDi2gROpnhbg7VOoCtm9m3ssMcVvHYVt0HiYxFwPOnH7HFPmhZSdyj-VWLdeyzlOyu2IPuti-ij6vh_t3MMZl_NYBxQsi5RSIyEGH4BiaBhQl8BlzSxklascuJyWS4H2niZi9gxbFvD_uzTfS:1kj6et:7QqUCoI01SkDMG7sW_L3vo0lKrBRoE0KKCRdLZzpS64",
+    "expire_date": "2020-12-12T20:17:27.725Z"
+  }
+},
+{
+  "model": "news.category",
+  "pk": 1,
+  "fields": {
+    "category_title": "Sport"
+  }
+},
+{
+  "model": "news.category",
+  "pk": 2,
+  "fields": {
+    "category_title": "News"
+  }
+},
+{
+  "model": "news.category",
+  "pk": 3,
+  "fields": {
+    "category_title": "Entertainment"
+  }
+},
+{
+  "model": "news.article",
+  "pk": 1,
+  "fields": {
+    "title": "Manchester City winger Ferran Torres hits hat-trick",
+    "Brief": "Manchester City winger Ferran Torres scored his first career hat-trick as Spain inflicted Germany's heaviest competitive defeat and joined France in the four-team Nations League finals.",
+    "content": "In a repeat of the Euro 2008 final, former Chelsea forward Alvaro Morata headed in Spain's first goal, before Torres volleyed home emphatically.\r\n\r\nRodri made it three with a guided header, and Torres slotted in a fourth before curling home the fifth.\r\n\r\nMikel Oyarzabal's tap-in made it 6-0.\r\n\r\nSpain and France will be joined by either Belgium or Denmark from Group A2 and Italy, the Netherlands or Poland from Group A1.\r\n\r\nSummer bargain Torres shines\r\nIt was a game that Spain dominated from the off - having 70% possession and 23 shots - but it was 20-year-old Torres who stole the show.\r\n\r\nHis fast, intelligent movement and eye for a goal has impressed in the opening weeks of the season, and his performance here strengthened the idea that Manchester City may have got a bargain after only paying an initial �20m for his services.\r\n\r\nHis raw pace and trickery set up an incorrectly disallowed Morata goal, before he showed composure to set himself and volley home his first.\r\n\r\nHis second again demonstrated excellent technique, as he controlled a cross that was behind him before slotting underneath Manuel Neuer.\r\n\r\nHe saved the best for last as he superbly curled home from the edge of the area to take his international tally to four goals.\r\n\r\nHis performance will have delighted fans in the blue half of Manchester, with the man he replaced at City, Leroy Sane, completely ineffective for the Germans.\r\n\r\nThe only setbacks on a fantastic night for Spain were muscular injuries to captain Sergio Ramos and Sergio Canales. But manager Luis Enrique said both injuries were \"of very little importance\", adding \"it is not pleasant for the clubs\".\r\n\r\nLow has major work to do\r\nGoing into the game, Germany were unbeaten in 2020, and in control of Group A4.\r\n\r\nThey needed to avoid defeat to reach the finals and while that situation can sometimes lead to confusion about how to play, they were below par throughout.\r\n\r\nThey failed to register a single shot on target, with Serge Gnabry coming closest when his 22-yard effort rebounded off the bar in the dying moments.\r\n\r\nIt was a night filled with questionable tactical decisions, as Chelsea forward Timo Werner played wide left, with Gnabry through the middle in an uninspiring first-half performance.\r\n\r\nManager Joachim Low was given the chance to rebuild the side after elimination from the 2018 World Cup in the group stages, but with his side ranked 13th in the world, this performance suggests he has significant work to do before next year's rearranged European Championship.\r\n\r\nLow said he didn't \"know what really happened\", but said he still trusts in the players.\r\n\r\nHe added: \"Today we saw that we are not as far ahead in our development as we had thought and expected after the last games.\"",
+    "created_on": "2020-11-17T23:04:50.914Z",
+    "article_category": 1,
+    "likes": [
+      [
+        "Admin"
+      ],
+      [
+        "Mehmood"
+      ],
+      [
+        "md"
+      ]
+    ]
+  }
+},
+{
+  "model": "news.article",
+  "pk": 2,
+  "fields": {
+    "title": "Fans return to matches: Government exploring potential return for December",
+    "Brief": "The government is exploring the potential for fans to return to sports venues in some parts of England as early as next month.",
+    "content": "The government is exploring the potential for fans to return to sports venues in some parts of England as early as next month.\r\n\r\nAccording to sources, Prime Minister Boris Johnson privately indicated to MPs on Monday that re-opening turnstiles as soon as possible was \"a personal priority\".\r\n\r\nThe Department for Digital, Culture, Media and Sport is working on allowing fans into stadia in areas where rates of infections are deemed sufficiently low - possibly before Christmas.\r\n\r\nSports had previously been told to brace themselves for the threat of having no crowds until April.\r\n\r\nOn Tuesday, the government said it had held \"constructive\" talks with football leaders on the return of fans, along with issues such as governance reforms, financial sustainability, and greater diversity.\r\n\r\nCulture Secretary Oliver Dowden, who hosted a 90-minute 'virtual future of football' summit, said: \"I want to work together with football to make progress on important issues for the game's long-term future.\r\n\r\n\"Discussions to continue as we start our fan-led review of governance.\"",
+    "created_on": "2020-11-17T23:14:12.712Z",
+    "article_category": 1,
+    "likes": [
+      [
+        "Nicole"
+      ]
+    ]
+  }
+},
+{
+  "model": "news.article",
+  "pk": 3,
+  "fields": {
+    "title": "Marcus Rashford launches children's book club to spread joy of reading",
+    "Brief": "Footballer Marcus Rashford has followed his free school meals campaign by launching a book club to help children enjoy the escapism of reading.",
+    "content": "The Manchester United and England star has teamed up with Macmillan Children's Books to promote reading and literacy.\r\n\r\nBooks were \"never a thing we could budget for as a family\", he said.\r\n\r\n\"I only started reading at 17, and it completely changed my outlook and mentality.\" He said reading shouldn't be for \"just those that can afford it\".\r\n\r\nThe 23-year-old continued: \"I wish I was offered the opportunity to really engage with reading more as a child.\r\n\r\n\"There were times where the escapism of reading could have really helped me. I want this escapism for all children.\"\r\n\r\nMacmillan said the scheme would see a large number of books being given away to children from vulnerable and under-privileged backgrounds.\r\n\r\nRashford added: \"We know there are over 380,000 children across the UK today that have never owned a book, children that are in vulnerable environments. That has to change.\"\r\n\r\nA spokeswoman for the publisher said it would work with Rashford and charities to \"find the most effective mechanisms to reach the children who need them\".",
+    "created_on": "2020-11-17T23:18:11.291Z",
+    "article_category": 3,
+    "likes": [
+      [
+        "Admin"
+      ],
+      [
+        "Nicole"
+      ],
+      [
+        "Paulo"
+      ]
+    ]
+  }
+},
+{
+  "model": "news.article",
+  "pk": 4,
+  "fields": {
+    "title": "Ban on new petrol and diesel cars in UK from 2030 under PM's green plan",
+    "Brief": "New cars and vans powered wholly by petrol and diesel will not be sold in the UK from 2030, prime minister Boris Johnson has said.",
+    "content": "New cars and vans powered wholly by petrol and diesel will not be sold in the UK from 2030, prime minister Boris Johnson has said.\r\n\r\nBut some hybrids would still be allowed, Mr Johnson confirmed.\r\n\r\nIt is part of what the prime minister calls a \"green industrial revolution\" to tackle climate change and create jobs in industries such as nuclear.\r\n\r\nCritics of the plan say the �4bn allocated is far too small for the scale of the challenge.\r\n\r\nThe total amount of new money announced in the package is a 25th of the projected �100bn cost of high-speed rail, HS2.\r\n\r\nUK climate plan: what do the terms mean?\r\nWhy the UK's carbon-free future will need rules\r\nExtra �40m pledged for green spaces in England\r\nThe government says it is part of a broader �12bn package of public investment that is expected to draw in much more private sector funding.\r\n\r\nA Downing Street source said it would send a clear signal to investors where to put their money for the future.\r\n\r\nThe plan includes provision for a large nuclear plant - likely to be at Sizewell in Suffolk - and for advanced small nuclear reactors, which it is hoped, will create an estimated 10,000 jobs at Rolls-Royce and other firms\r\n\r\nThe government hopes that as many as 250,000 jobs will be created overall - especially in the north of England and in Wales, with 60,000 in offshore wind.\r\n\r\nThe clean energy revolution will also creep into some people's homes.\r\n\r\nThe government will bring forward, to 2023, the date by which new homes will need to be cosy without using gas heating.\r\n\r\nFree home insulation: Too good to be true?\r\nIt will aim to install 600,000 heat pumps a year by 2028 - these are low-energy electrical devices for warming homes.\r\n\r\nAnd it has extended the Green Homes Grant for home insulation for a year after the first tranche was massively over-subscribed.\r\n\r\nClean hydrogen will be blended into the natural gas supply to reduce overall emissions from gas, and the government is seeking a town to volunteer for a trial of 100% hydrogen for heat, industry and cooking.\r\n\r\nThe hydrogen - attracting a subsidy of up to �500m - will be produced in places such as north-east England, partly by energy from offshore wind.",
+    "created_on": "2020-11-17T23:22:12.192Z",
+    "article_category": 2,
+    "likes": [
+      [
+        "Nicole"
+      ],
+      [
+        "Mehmood"
+      ],
+      [
+        "Paulo"
+      ]
+    ]
+  }
+},
+{
+  "model": "news.article",
+  "pk": 5,
+  "fields": {
+    "title": "Debenhams set to close putting 12,000 jobs at risk",
+    "Brief": "The move comes after the failure of last-ditch efforts to rescue the ailing department store chain.",
+    "content": "Debenhams stores are set to close after the failure of last-ditch efforts to rescue the ailing store chain.\r\n\r\nIt means all 12,000 employees are likely to lose their jobs when the chain's 124 shops cease trading.\r\n\r\nThe news comes just hours after Topshop owner Arcadia fell into administration, putting 13,000 jobs at risk.\r\n\r\nDebenhams itself had been in administration since April. Hopes of a rescue were crushed after the last remaining bidder, JD Sports, withdrew.\r\n\r\nStaff were told the news on Tuesday morning.",
+    "created_on": "2020-12-01T16:15:51.835Z",
+    "article_category": 2,
+    "likes": []
+  }
+},
+{
+  "model": "news.article",
+  "pk": 6,
+  "fields": {
+    "title": "Covid: Daily Mail's NHS masks came from Uighur factory in China",
+    "Brief": "A charity set up by the Daily Mail to buy protective equipment for NHS staff donated 100,000 face masks suspected of being made by workers in a controversial Chinese labour programme.",
+    "content": "The masks were flown in from China by the paper's Mail Force campaign, which was launched in April to buy PPE.\r\n\r\nThey were bought from Medwell Medical Products, a firm suspected of using Uighur Muslims in the labour scheme.\r\n\r\nMail Force said it had been unaware of allegations about Medwell at the time.\r\n\r\nA spokesperson for the charity said: \"The masks in question represent 0.2% of the 42 million items of PPE we delivered to the UK. We are implacably opposed to forced labour of any kind.\"\r\n\r\n'Re-education camps'\r\nIn April, amid reports of PPE shortages in the UK, the Daily Mail newspaper and owners General Trust launched the Mail Force charity, to source and provide equipment for NHS and care workers.\r\n\r\nThe registered charity - which has a separate board of trustees - has since provided millions of items of PPE, as well as testing equipment to hospitals such as London's Great Ormond Street, as well as care homes, and charities such as Mencap.\r\n\r\nMore than �11m has been donated by readers, the Daily Mail, partner businesses, and from the paper's owner, Viscount Rothermere\r\n\r\nJust a few days after the charity was set up, it delivered 100,000 masks and 50,000 coveralls to NHS workers. The Daily Mail published two videos showing reporters delivering boxes of PPE. The boxes of disposable masks are clearly marked \"Medwell\".",
+    "created_on": "2020-12-01T16:21:35.203Z",
+    "article_category": 2,
+    "likes": []
+  }
+},
+{
+  "model": "news.article",
+  "pk": 7,
+  "fields": {
+    "title": "Covid: Boris Johnson urges MPs to back tough tiers for England",
+    "Brief": "Boris Johnson has urged MPs to back his stricter Covid tiers system for England, amid a threatened rebellion from his backbenchers.",
+    "content": "The PM said the NHS \"remains under pressure,\" despite progress in tackling the virus during the nationwide lockdown ending on Wednesday.A number of Tory MPs have criticised the new regional restrictions.\r\n\r\nBut with both Labour and the SNP abstaining from the vote due around 19.00 GMT, they are expected to pass.\r\n\r\nMore than 55 million people will enter the two toughest tiers from 00:01 GMT on Wednesday if the plans are approved.\r\n\r\nLabour leader Sir Keir Starmer said he recognised restrictions needed to continue, but he was \"far from convinced\" the new system will work, and economic help for firms was \"nowhere near sufficient\".\r\n\r\nBut, defending his decision to abstain, he said it was \"not in the national interest\" for Labour to join Tory rebels and vote against the tier system.\r\n\r\nGovernment publishes data behind stricter tiers\r\nPM calls for 'unity' from MPs on new Covid tiers\r\nWhy is so much of the North and Midlands in the top tier?\r\nAhead of the vote, Mr Johnson said he recognised hospitality had \"borne a disproportionate share of the burden\" during the crisis, and confirmed an extra �40m for some pubs in tiers two and three.\r\n\r\nThe money will be distributed via councils to so-called \"wet pubs\" - those that don't serve food and so are the most affected by the highest levels of coronavirus restrictions.",
+    "created_on": "2020-12-01T16:23:37.624Z",
+    "article_category": 2,
+    "likes": []
+  }
+},
+{
+  "model": "news.article",
+  "pk": 8,
+  "fields": {
+    "title": "Rita Ora 'sorry' for breaking lockdown rules to attend birthday party",
+    "Brief": "Rita Ora says she's \"deeply sorry\" for breaking English lockdown rules to celebrate her 30th birthday.",
+    "content": "The singer says she attended a party at a restaurant in west London on Saturday.\r\n\r\n\"Given the restrictions, I realise how irresponsible these actions were and I take full responsibility,\" she wrote in a statement.\r\n\r\nIt's reported up to 30 people were at the party, although she describes the event as a \"small gathering\".\r\n\r\nShe says it was a \"spur of the moment\" decision.\r\n\r\nLondon's Metropolitan Police confirmed officers went to the Casa Cruz restaurant after a report about a potential breach of Covid lockdown regulations.\r\n\r\n\"I'm deeply sorry for breaking the rules and in turn understand that this puts people at risk,\" she posted.\r\n\r\n\"This was a serious and inexcusable error of judgement.\"",
+    "created_on": "2020-12-01T16:25:27.284Z",
+    "article_category": 3,
+    "likes": [
+      [
+        "Wise124"
+      ]
+    ]
+  }
+},
+{
+  "model": "news.article",
+  "pk": 9,
+  "fields": {
+    "title": "Spotify reveals 2020's most-streamed songs",
+    "Brief": "Drake, Bad Bunny, Dua Lipa and The Weeknd are among the most-streamed artists of 2020, according to figures from Spotify.",
+    "content": "Drake was the most popular artist in the UK, reclaiming the number one position from Ed Sheeran.\r\n\r\nThe Weeknd's Blinding Lights was the most-played song in the UK, while Lewis Capaldi's Divinely Uninspired To A Hellish Extent was the top album.\r\n\r\nAnd Bad Bunny was the biggest artist globally, amassing 8.3bn streams.\r\n\r\nThe Puerto Rican star's second album YHLQMDLG notched up 3.3 billion streams, followed by The Weeknd's After Hours and Post Malone's Hollywood's Bleeding (You can read more about Bad Bunny's success at the bottom of this article).\r\n\r\nHarry Styles' Fine Line and Dua Lipa's Future Nostalgia took fourth and fifth place respectively.\r\n\r\nSpotify said the most popular genre of 2020 was pop music - reflecting a rise in happier, uptempo music during the pandemic.\r\n\r\nPodcaster Joe Rogan, who signed an exclusive deal with Spotify earlier this year, was responsible for the service's most listened-to podcast. Other popular shows included Rosie and Chris Ramsey's Sh**ged Married Annoyed, and The Times' daily News Briefing.\r\n\r\nOn Apple podcasts, the most popular show of 2020 was BBC Radio 4's Desert Island Discs, with Louis Theroux's Grounded podcast - also a Radio 4 production - the most listened-to newcomer.\r\n\r\nSpotify's music streaming rivals are due to release their end-of-year statistics in the coming week; and the Official Charts will reveal the UK's biggest songs of 2020 at the end of the year.",
+    "created_on": "2020-12-01T16:31:05.078Z",
+    "article_category": 3,
+    "likes": []
+  }
+},
+{
+  "model": "news.article",
+  "pk": 10,
+  "fields": {
+    "title": "Gary Barlow: 'I'm not as confident as I was at 21'",
+    "Brief": "When Take That wrapped up their exhaustive, 43-date Everything Changes tour in April 1994, the band were ready for a break.",
+    "content": "Plans were made. Holidays in Ibiza and Greece were booked. But then Gary Barlow got a call from the band's record label.\r\n\r\n\"They said, 'We need an album written in a week,'\" he recalls, \"and I thought, 'Well then, I'm not going anywhere.'\"\r\n\r\nAt this point, Take That were the biggest band in pop. Their last four singles had topped the charts and, earlier that year, Pray had won them two Brit Awards.\r\n\r\nBut there was an internal struggle over their musical direction. Manager, Nigel Martin-Smith had his eyes on America, envisaging Take That as the new New Kids On The Block. Barlow had other ideas.\r\n\r\n\"Nigel was hustling me to write Usher-style bump and grind,\" he wrote in his 2018 memoir, A Better Me. \"All I wanted was to write these power ballads\".",
+    "created_on": "2020-12-01T16:32:56.621Z",
+    "article_category": 3,
+    "likes": []
+  }
+},
+{
+  "model": "news.article",
+  "pk": 11,
+  "fields": {
+    "title": "Saved By The Bell apologises to Selena Gomez for kidney transplant joke",
+    "Brief": "The makers of Saved By The Bell have apologised to Selena Gomez for a joke made in a recent episode about her kidney transplant.",
+    "content": "A spokesperson for NBC said it was \"never our intention\" to joke about her surgery.\r\n\r\nThe rebooted series features an episode where two characters argue over who donated a kidney to the singer in 2017.\r\n\r\nNBC also said they had been in touch with Gomez about making a donation to her charity.\r\n\r\nSelena Gomez reveals kidney transplant\r\nSelena Gomez: 'Instagram made me depressed'\r\nSelena Gomez had lupus but what is it?\r\nSelena, 28, received a kidney transplant three years ago after being diagnosed with the autoimmune disease Lupus.\r\n\r\n'The joke is offensive to donor families'\r\nThe characters in Saved By The Bell speculated in a scene about who donated the kidney - with one claiming it was Demi Lovato and another saying it was Justin Bieber's mum.\r\n\r\nLater in the episode, graffiti appears on the wall saying, \"does Selena Gomez even have kidneys?\"\r\n\r\nShe does, and one of them was donated by best friend Francia Raisa.\r\n\r\nFrancia has since tweeted about the episode, praising other donors for performing a \"selfless act\".",
+    "created_on": "2020-12-01T16:34:48.708Z",
+    "article_category": 3,
+    "likes": []
+  }
+},
+{
+  "model": "news.article",
+  "pk": 12,
+  "fields": {
+    "title": "Masked Indian comic superhero fights Covid-19 fear",
+    "Brief": "India's first female comic superhero Priya, a gang-rape survivor who earlier campaigned against rape, acid attack and sex trafficking, is back to fight disinformation around the Covid-19 pandemic.",
+    "content": "In Priya's Mask, due to be launched on 2 December, the comic crusader joins hands with Jiya, the \"Burka Avenger\", a popular character from a Pakistani cartoon show, as the two go about trying to tackle the pandemic - and also the \"infodemic\", a major proliferation in fake news surrounding the coronavirus.\r\n\r\nWith more than 9.4 million infections and 137,000 deaths, India has the second highest caseload globally. A strict nationwide lockdown that was imposed on 21 March delayed the spread for a while, but infections grew rapidly - and continue to do so - since restrictions were relaxed.\r\n\r\nA major challenge in India's fight against Covid-19 has been the false and misleading information around the pandemic, which is often shared at lightning speed.\r\n\r\nSince the first infections were reported earlier this year, millions of people with smartphones have received hundreds of messages each about supposed cures, lockdown rumours and conspiracy theories on Covid's origins. Claims that frequently sipping warm water, shunning meat and poultry, or taking homoeopathic medicine could prevent infection have regularly landed in people's inboxes.\r\n\r\nFear and carelessness have seen people flouting orders to wear masks in public places or maintain social distancing. In some places, frontline workers, including doctors and nurses were attacked, even barred from their own homes by neighbours fearful of catching the virus.\r\n\r\n\"Through this campaign, we wanted to challenge misinformation, dispel fear, and support the health workers and others at the forefront of the fight against the virus,\" Ram Devineni, the Indian-American creator of the Priya comic series, told the BBC.",
+    "created_on": "2020-12-01T16:36:56.414Z",
+    "article_category": 3,
+    "likes": []
+  }
+},
+{
+  "model": "news.comment",
+  "pk": 120,
+  "fields": {
+    "content": "hi",
+    "created_on": "2020-11-28T17:12:30.142Z",
+    "article": 4,
+    "user": [
+      "Paulo"
+    ],
+    "reply": null
+  }
+},
+{
+  "model": "news.comment",
+  "pk": 126,
+  "fields": {
+    "content": "wow",
+    "created_on": "2020-12-02T18:52:59.237Z",
+    "article": 1,
+    "user": [
+      "Wise124"
+    ],
+    "reply": null
+  }
+}
+]

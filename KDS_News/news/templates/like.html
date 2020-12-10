@@ -1,0 +1,13 @@
+{{total_likes}} Like{{total_likes|pluralize}}
+
+{% if request.user.is_authenticated %}
+    <form id="like_form">
+        {% csrf_token %}
+        {% if is_liked %}
+            <button type="submit" id="dislike" name="post_id" value="{{ article.id }}" class="btn btn-danger" data-url="{% url 'like_post' %}">Dislike</button>
+        {% else %}
+            <button type="submit" id="like" name="post_id" value="{{ article.id }}" class="btn btn-primary" data-url="{% url 'like_post' %}">Like</button>
+        {% endif %}
+
+    </form>
+{% endif %}

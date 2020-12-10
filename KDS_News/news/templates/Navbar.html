@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <ul class="navbar-nav mr-auto">
+        {% for category in categories %}
+        <li id = "{{category.id}}"class="nav-item"><a class="nav-link" href="{% url 'Category' category.id %}">{{category.category_title}}</a></li>
+        
+        {% endfor %}
+        <li class="nav-item"><a class="nav-link" href="{% url 'contact' %}">Contact</a></li>
+    </ul>
+    <ul class = "navbar-nav ml-auto user_btns">
+        {% if is_login %}
+        <li style="float:right; padding-right: 20px"><a class="nav-link" href="{% url 'signup' %}">Sign Up</a></li>
+        {% elif is_signup %}
+        <li style="float:right; padding-right: 20px"><a class="nav-link" href="{% url 'login' %}">Login</a></li>
+        {%elif is_contact and not request.user.is_authenticated %}
+        <li style="float:right; padding-right: 20px"><a class="nav-link" href="{% url 'login' %}">Login</a></li>
+        <li style="float:right; padding-right: 20px"><a class="nav-link" href="{% url 'signup' %}">Sign Up</a></li>
+        {% else %}
+        <li id = "logout" class = "ml-auto nav-item" ><a class="nav-link" href="{% url 'logout' %}">Logout</a></li>
+        <li id = "profile" class = "ml-auto nav-item" ><a class="nav-link" href="{% url 'profile-view' %}">{{ user.username}}</a></li>
+        {%endif%}
+    </ul>
+</div>
+</nav>

@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+<!-- this is the user form -->
+    <div class="row mb-3 mt-3">
+        <div class=" col-sm-10 card bg-light border-dark mx-auto">
+            <div class="card-header m-3">
+                User Profile
+            </div>
+            <div class="card-body col-sm-12">
+                <div class="row">
+                    <div class=" col-sm-4 card bg-light border-dark mx-auto">
+                        <div class="card-body">
+                            <div class="card-header m-3">
+                                Profile picture
+                            </div>
+                            {% if request.user.profile.user_pic%}
+                            <img src="{{request.user.profile.user_pic.url}}" class="card-img">
+                            {% else %}
+                            <img src="{% static '/images/rename.jpg' %}" class="card-img">
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class=" col-sm-7 card bg-light border-dark mx-auto">
+                        <div class="card-body">
+                            <div class="card-header m-3 text-center">
+                                User details
+                            </div>
+                            <div class="text-center">
+                                <p> First Name: {{user.first_name}}</p>
+                                <p> last Name: {{user.last_name}}</p>
+                                <p> Email: {{user.email}}</p>
+                                {% ifnotequal categories 0 %}
+                                <p> Favourite Categories:
+                                    {% for category in categories%}
+                                    {{category}}
+                                    {% endfor %}
+                                </p>
+                                {% else %}
+                                <p>Please select a favourite category by clicking the edit button</p>
+                                {% endifnotequal %}
+
+                                <button id="Show_edit_form" class="btn btn-primary" data-toggle="collapse"
+                                    data-target="#profile_form-form">Edit profile</button>
+                                <button id = "delete" data-url="{% url 'delete_profile_pic' %}" type="delete" class="btn btn-danger">{% csrf_token %}Delete profile picture</button>
+                                
+                            </div>
+                            <!-- this is the edit form for user pic and category -->
+
+                            <div class="collapse" id="profile_form-form">
+
+                                <form class="form-horizontal card" method="POST" enctype="multipart/form-data" action="{% url 'edit-profile' user.id%}">
+                                    {% csrf_token %}
+                                    <ul>
+                                        <p class="h4 text-center py-4">Profile Page</p>
+                                        <div class="card-body">
+                                            <div class='md-form'>
+                                                {{profile_form.user_pic.errors}}
+                                                <label class="control-label col-sm-4"
+                                                    for="{{ profile_form.user_pic.id_for_label }}">Profile
+                                                    picture:</label>
+                                                {{profile_form.user_pic}}
+                                            </div>
+                                            <div class='md-form'>
+                                                {{profile_form.favourite_category.errors}}
+                                                <label class="control-label col-sm-4"
+                                                    for="{{ profile_form.favourite_category.id_for_label }}">Favourite
+                                                    categories:</label>
+                                                {{profile_form.favourite_category}}
+                                            </div>
+                                            </p>
+                                        </div>
+                                    </ul>
+                                    <button type="submit" class="btn-primary profile_form">submit</button>
+
+                                    {{profile_form.errors}}
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}

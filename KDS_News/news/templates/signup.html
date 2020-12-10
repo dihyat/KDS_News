@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="row">
+        <div class="col-sm-6 ">
+
+            <form class="form-horizontal card signup_form" method="POST">
+                {% csrf_token %}
+                <ul>
+                    <p class="h4 text-center py-4">Sign Up</p>
+                    <div class="card-body">
+
+                        <div class='md-form'>
+                            {{form.username.errors}}
+                            <label class="control-label col-sm-3"
+                                for="{{ form.username.id_for_label }}">Username:</label>
+                            {{form.username}}
+                        </div>
+                        <div class='md-form'>
+                            {{form.first_name.errors}}
+                            <label class="control-label col-sm-3" for="{{ form.first_Name.id_for_label }}">First
+                                name:</label>
+                            {{form.first_name}}
+                        </div>
+                        <div class='md-form'>
+                            {{form.last_name.errors}}
+                            <label class="control-label col-sm-3" for="{{ form.last_name.id_for_label }}">Last
+                                name:</label>
+                            {{form.last_name}}
+                        </div>
+                        <div class='md-form'>
+                            {{form.email.errors}}
+                            <label class="control-label col-sm-3" for="{{ form.email.id_for_label }}">Email:</label>
+                            {{form.email}}
+                        </div>
+                        <div class='md-form'>
+                            {{form.dob.errors}}
+                            <label class="control-label col-sm-3" for="{{ form.dob.id_for_label }}">Date of
+                                birth:</label>
+                            {{form.dob}}
+                        </div>
+                        <div class='md-form'>
+                            {{form.password1.errors}}
+                            <label class="control-label col-sm-3"
+                                for="{{ form.password1.id_for_label }}">Password:</label>
+                            {{form.password1}}
+                        </div>
+                        <div class='md-form'>
+                            {{form.password2.errors}}
+                            <label class="control-label col-sm-3" for="{{ form.password2.id_for_label }}">Confirm
+                                Password:</label>
+                            {{form.password2}}
+                        </div>
+                        </p>
+                    </div>
+                </ul>
+                <button type="submit" class="btn-primary sign_up" data-url="{% url 'signup' %}">Sign up</button>
+            </form>
+        </div>
+
+
+
+
+    </div>
+
+{% endblock %}

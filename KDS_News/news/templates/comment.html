@@ -1,0 +1,71 @@
+
+
+   
+        <div class="container-fluid mt-2">
+            <div class="form-group row">
+                <form method="post" class="comment-form" action="{% url 'add-comment' article.id %}">
+                    {% csrf_token %}
+                    {{comment_form}}
+                    <input type="submit" id="comment_btn" class="btn btn-outline-success" value="Comment">
+
+                </form>
+            </div>
+        </div>
+        <p id="num-comment">{{ comments.count }} Comment{{ comments|pluralize }}</p>
+        {% for comment in comments %}
+        <blockquote id="main-{{comment.id}}" class="blockquote">
+            <p id="content-{{comment.id}}" class="mb-0">{{comment.content}}</p>
+            <footer class="blockquote-footer">Commented by <cite title="Source Title">{{comment.user}}</cite>
+                <button id="btn-reply-{{comment.id}}" type="button" name="button"
+                    class="btn btn-primary btn-sm reply-btn">Reply</button>
+                {%if request.user == comment.user%}
+
+                <button id="btn-edit-{{comment.id}}" type="button" name="button"
+                    class="btn btn-warning btn-sm edit-btn">Edit</button>
+                <button data-url="{% url 'delete-comment' comment.id %}" id="btn-delete-{{comment.id}}" type=" button"
+                    name="button" class="btn btn-danger btn-sm delete-btn">{% csrf_token %} Delete</button>
+                {%endif%}
+
+            </footer>
+        </blockquote>
+
+        {%if request.user == comment.user%}
+        <div id="edit-{{comment.id}}" class="edit-section container mt-2" style="display: none;">
+            <div class="form-group row">
+                <form method="post" class="edit-form" action="{% url 'edit-comment' comment.id %}">
+                    {% csrf_token %}
+                    {{comment_form}}
+                    <input id = "{{comment.id}}"type="submit" class="btn btn-outline-success" value="Submit">
+
+                </form>
+            </div>
+        </div>
+        {%endif%}
+
+        <div id="reply-{{comment.id}}" class="reply-section container mt-2" style="display: none;">
+            {% for reply in comment.replies.all %}
+            <blockquote class="blockquote">
+                <p class="mb-0"><small>{{reply.content}}</small></p>
+                <footer class="blockquote-footer"><small>Replied by <cite
+                            title="Source Title">{{reply.user}}</cite></small>
+                </footer>
+            </blockquote>
+            {% endfor %}
+            <div class="form-group row">
+                <form method="post" class="reply-form" action="{% url 'reply-comment' article.id %}">
+                    {% csrf_token %}
+                    <input type="hidden" name="comment_id" value="{{comment.id}}">
+                    {{comment_form}}
+                    <input type="submit" class="btn btn-outline-success" value="Reply">
+
+                </form>
+            </div>
+        </div>
+
+        {% endfor %}
+
+
+    </div>
+
+
+</div>

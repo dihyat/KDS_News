@@ -1,0 +1,23 @@
+{% extends 'base.html' %} {% block content %}
+<div class="row mb-3 mt-3">
+  <div class="col-sm-9 card text-center bg-light border-dark mx-auto">
+    <div class="card-header m-3">{{category}}</div>
+    <div class="card-body">
+      <h4 class="card-title">{{article.title}}</h4>
+      <br />
+      <label class="card-subtitle mb-2">{{article.Brief}}</label><br />
+      <label class="card-text mt-2">{{article.content}}</label>
+      <div id="like-section">{% include 'like.html' %}</div>
+
+      <div class="card-footer text-muted">{{article.created_on}}</div>
+    </div>
+  </div>
+</div>
+
+<div class="card text-left col-sm-4 border-dark mx-auto overflow:auto">
+  <div class="card-body">
+    <div class="comment-section">{% include 'comment.html' %}</div>
+  </div>
+</div>
+
+{% endblock %}
